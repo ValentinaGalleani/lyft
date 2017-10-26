@@ -1,3 +1,188 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+
+/*inicio del nav*/
+.background-head{ 
+	height: 108px; 
+	width: 100%;
+	background-color: transparent;
+	position: fixed;
+	margin-top: 20px;
+}	
+.background-head ul li a{ /* propiedades LISTA*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFF;
+	padding-right: 10px;	
+}
+
+ul{
+    display: inline-block;
+    float: right;
+}
+
+.logo{
+	width: 5%;
+	margin-left: 79px;
+	margin-top: 20px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+
+}
+/*fin del nav*/
+
+/*inicio primera seccion*/
+.fondo{
+	background-image: url(../assets/images/hero.gif);
+	background-size: cover;
+	height: 600px;
+}
+section .box-blanco{
+	background-color: #FFF;
+	width: 533px; 
+	height:418px;
+	float: right;
+    margin-top: 115px;
+
+}
+
+
+
+section .box-blanco {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	padding: 81px;
+	
+}
+
+.box-blanco h1{
+	color: #352384;
+	font-size: 42px;
+	font-weight: 500;
+	line-height: 48px;
+	
+}
+
+.box-blanco h4{
+	color: #352384;
+	font-weight: 400;
+	font-weight: lighter
+}
+
+.box-blanco p{
+	color: #C0C8DA;
+}
+
+hr{
+	margin-bottom: 15px;
+}
+
+.box-blanco .boton button{
+	color: #FFF;
+	width: 170px;
+	height: 50px;
+	background: #FF00BF;
+	border-radius: 10px;
+	font-size: 17px;
+	vertical-align: center;
+	
+}
+
+h6 {
+	color:#C5CBD5;
+	font-weight: 400;
+	line-height: 23px;
+	padding-top:10px;
+}
+
+/*fin seccion 1*/
+
+/*inicio seccion 2*/
+.fondo2{
+	background:linear-gradient(#76278F, #2B1E66);
+	background-size: cover;
+	width: 100%;
+	height: 640px;
+
+	
+}
+
+.text-box{
+	float: left;
+}
+.seccion2 .fondo2 .phone img{
+	width:520,83px;
+	height: 512px;
+	margin-top: 75px;
+	margin-left: 97px;
+}
+
+.fondo2 h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	margin-left: 155px;
+	padding-top: 73px;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: justify;
+	white-space: pre-line;
+	margin-bottom: 25px;
+}
+
+.text-box p{
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	margin-left: 155px;
+	white-space: pre-line;
+	text-align: left;
+}
+
+
+/*fin seccion 2*/
+
+/*inicio seccion 3*/
+.text1 .text2 .text3{
+	font-family: 'Montserrat', sans-serif;
+}
+.seccion3 .text1 h5 h3 p{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.caja-seccion3{
+	display: inline-block;
+}
+
+.caja-text1{
+	width: 400px;
+	padding: 60px 20px 20px 80px;
+	margin-bottom: 250px;
+	margin-top: 132px;
+}
+
+
+.video1{ /*video 1*/
+	width: 840px;
+	height: 500px;
+	float: right;
+}	
+
+/*fin seccion 3*/
+
+/* inico seccion 4*/
+
+
+
+
+
+
+
+
+
