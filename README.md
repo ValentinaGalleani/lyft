@@ -1,92 +1,29 @@
-# Lyft
+# Reto de código LYFT
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+En el ejercicio de simular la página web de LYFT, utilicé el HTML semántico y las etiquetas para reforzar la estructura de la página y el CSS para darte estilo y diseño.
 
-***
+##En su estructura utilicé:
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
 
-## Flujo de trabajo
+*HEAD, para linkear la tipografía Montserrat con toda su familia tipográfica.
+también utilicé un link para agregar la carpeta de íconos de Icomoon.
+Y por último el link principal para enlazar el archivo CSS al HTML.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+*Para crear la composición del cuerpo de la pagína web, utilicé el BODY en el cual agregué un nav para que se visualice el bloque principal de enlaces de navegación incluyendo el logotipo, ya que ambos están en position:fixed; lo que permite que queden de manera estática en la pantalla al hacer scroll. El menú lo hice con una lista utilizando las etiquetas <ul> y <li>.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+*En la posicion central de mi body, utilicé 5 secciones, en las cuales fui manejando simultaneamente el uso de propiedades y valores en CSS.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+**En la primera sección aplique un background-image: de fondo adentro de un div, también le di forma a la caja blanca aplicando dentro de la clase box-blanco, el titulo de la caja, los subtitulos y la clase boton.
 
-## Objetivo
+**En la segunda sección utilicé un background:linear-gradient con los dos colores requeridos. Además agregué al lado derecho la imágen del teléfono y a la izquierda la descripción con un <h3> y un párrafo <p>, y en CSS le di tamaño, color, familia tipográfica, justifiqué el texto a la izquierda, entre otros estilos.
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+**En la tercera sección coloqué a la izquierda una breve descripción utilizando la clase caja-text1, y aplicandole las propiedades para definir el tamaño, color #FFF; familia tipográfica entre otras cosas. Y a la derecha el video1 con un tamaño de ancho width="840" y alto height="500" indicados en el HTML.
 
-![Lyft Website](docs/fullpage.png)
+**En la sección 4 comencé aplicando la misma lógica, de la tercera sección pero al revés, utilizando la clase caja-text2 para llamar a los textos en la parte derecha de la página, y el video2 a la izquierda. Para eso apliqué una sección contenedora seccion4, y un div text2 que contiene adentro dos div, uno para el video .video2, y el otro para los textos caja-text2.
 
-## Consideraciones
+**En la sección 5 fuí trabajando de la misma manera posicionando el video .video3 a la derecha y los textos .text3 a la izquierda. Esto también lo hice con un div contenedor de la seccion .seccion5 que adentro incluye dos div, uno para el video .video3 y el otro para los textos <h5> <h3> y <p>.
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+**Y para finalizar, en el footer trabajé con cuatro listas .columna1, .columna2 , .columna3, e .imagenes una para cada columna del footer, aplicandoles un :hover para que cambie de color al poner el cursor sobre el enlace, además agregué un div .icon y un div #iconos para añadir los iconos de las redes sociales, un <hr> para crear la línea divisora entre los íconos y el texto .copyright para mencionar el cierre del footer. 
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza la tipografía `Montserrat`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+Valentina Galleani.
